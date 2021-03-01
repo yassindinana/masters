@@ -1,0 +1,38 @@
+Maximal conflict-free extensions:
+
+[
+
+{"a", "d"},
+{"a", "e"},
+{"a", "f"},
+{"b", "d"},
+{"b", "e"},
+{"b", "f"},
+{"c", "e"},
+{"c", "f"}
+]
+
+Admissible extensions:
+
+[
+{},
+{"a"},
+{"a", "e"},
+{"b"},
+{"b", "e"},
+{"e"}
+]
+
+Preferred extensions:
+
+[
+{"a", "e"},
+{"b", "e"}
+]
+
+Stable extensions:
+
+[
+{"a", "e"},
+{"b", "e"}
+]
